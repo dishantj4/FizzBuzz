@@ -2,12 +2,18 @@ package com.kata;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class FizzBuzzTest {
 
+	private FizzBuzz fizzBuzz;
 	
-	FizzBuzz fizzBuzz = new FizzBuzz();	
+	 @Before
+	    public void init() {
+		  fizzBuzz = new FizzBuzz();	
+	    }
+	
 	
 	
 	@Test
