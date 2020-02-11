@@ -17,31 +17,34 @@ public class FizzBuzzTest {
 	
 	
 	@Test
-	public void printForNumberMultipleBy3() {
+	public void numberMultipleBy3ShouldReurnFizz() {
 		
-	    assertEquals("Fizz", fizzBuzz.compute(3));
+	    assertEquals("Fizz", fizzBuzz.computeFizzBuzz(3));
 			
 	}
 	
 	@Test
-	public void printForNumberMultipleBy5() {
+	public void numberMultipleBy5ShouldReurnBuzz() {
 			
-	    assertEquals("Buzz", fizzBuzz.compute(5));
+	    assertEquals("Buzz", fizzBuzz.computeFizzBuzz(5));
 			
 	}
 
 	
 	@Test
-	public void printForNumberMultipleBy3and5() {
+	public void numberMultipleBy3and5ShouldReurnFizzBuzz() {
 			
-	    assertEquals("FizzBuzz", fizzBuzz.compute(15));
+	    assertEquals("FizzBuzz", fizzBuzz.computeFizzBuzz(15));
 			
 	}
 	
 	@Test
-	public void printForNumberOtherThanMultiplesOf3and5() {
+	public void numberOtherThanMultiplesOf3and5ShouldReurnSameNumber() {
 	
-	    assertEquals("16", fizzBuzz.compute(16));
+	    assertEquals("16", fizzBuzz.computeFizzBuzz(16));
 			
 	}
+	
+	
+	
 }
