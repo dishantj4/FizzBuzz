@@ -2,18 +2,7 @@ package com.kata;
 
 public class FizzBuzz {
 
-	public static void main(String[] args) {
 	
-		FizzBuzz fizzBuzz = new  FizzBuzz();
-		fizzBuzz.fizzBuzzRunner();
-
-	}
-	
-	public void fizzBuzzRunner() {
-		for(int i = 1; i<=100; i++) {
-			System.out.println(new FizzBuzz().computeFizzBuzz(i));
-		}
-	}
 
 	public String computeFizzBuzz(int number) {	
 
