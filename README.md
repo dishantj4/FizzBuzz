@@ -3,7 +3,7 @@ Code to print numbers 1 to 100 while multiple of 3 are printed Fizz, multiple of
 
 
 # Purpose
-This is an Practice program to showcase few principles of programming as below
+This is an Practice program to showcase Test Driven Development with few principles of programming as below
 S Single Responsibility Principle
 O Open-Closed Principle
 L Liskov Substitution Principle
