@@ -3,15 +3,7 @@ Code to print numbers 1 to 100 while multiple of 3 are printed Fizz, multiple of
 
 
 # Purpose
-This is an Practice program to showcase Test Driven Development with few principles of programming as below
-S Single Responsibility Principle
-O Open-Closed Principle
-L Liskov Substitution Principle
-I Interface Segregation Principle
-D Dependency Inversion Principle
-
-DRY (Don't repeat yourself)
-YAGNI (You aren't gonna need it)
+This is an Practice program to showcase Test Driven Development
 
 # How to run this App
 
@@ -37,5 +29,10 @@ Fizz
 Buzz
 
 -Go to src/test/java/com/kata/FizzBuzzTest.java and run the Junit Test case.
+
+# Code Coverage
+
+![alt text](https://github.com/dishantj4/FizzBuzz.git/PitestReport/FizzBuzzPitestReport.PNG)
+
 
 
